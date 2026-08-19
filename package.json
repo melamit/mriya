@@ -1,0 +1,31 @@
+{
+  "name": "mriya",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/melamit/mriya#readme",
+  "bugs": {
+    "url": "https://github.com/melamit/mriya/issues"
+  },
+  "license": "MIT",
+  "author": "Melamit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melamit/mriya.git"
+  },
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0",
+    "oxfmt": "^0.64.0",
+    "oxlint": "^1.79.0",
+    "oxlint-tsgolint": "^7.0.2001"
+  }
+}
