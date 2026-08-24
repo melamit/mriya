@@ -19,6 +19,7 @@
     "lint:fix": "oxlint --fix",
     "fmt": "oxfmt",
     "fmt:check": "oxfmt --check",
+    "fmt:fix": "oxfmt",
     "prepare": "husky"
   },
   "devDependencies": {
